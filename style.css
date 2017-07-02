@@ -3,12 +3,7 @@ body {
 	font-family: 'Catamaran', sans-serif;
 }
 
-/* Home Page */
-.front-banner {
-    background: url(images/home-banner_o.jpg) no-repeat;
-    background-size: cover;
-    height: 650px;
-}
+/* ALL PAGES - Navigation Menu */
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -42,16 +37,65 @@ body {
 	text-align: center;
 	padding: 10px;
 }
+/* Tablet-ALL PAGES - Nav Menu */
 @media (min-width: 768px) {
 	.header-text {
 		margin-top: 60px;
 	}
 }
+/* Desktop-ALL PAGES - Nav Menu */
 @media (min-width: 991px) {
 	.header-text {
 		padding-top: 20px;
 		padding-bottom: 30px;
 	}
+}
+
+/* ALL PAGES - Footer Row */
+footer {
+	margin-top: 25px;
+}
+.fa-ul {
+	display: flex;
+	color: #cc0000;
+	justify-content: space-around;
+	margin-right: 30px;
+}
+.disclaimer-row {
+	margin-top: 30px;
+}
+#disclaimer-text {
+	font-size: 13px;
+	font-weight: 300;
+	text-align: center;
+}
+/* Tablet-ALL PAGES-Footer Row */
+@media (min-width: 768px) {
+	.social-icons {
+		margin-top: 30px;
+	}
+}
+/* Desktop-ALL PAGES-Footer Row */
+@media (min-width: 991px) {
+	footer {
+		background-color: #ffeb3b;
+	}
+	.fa-ul {
+		justify-content: center;
+	}
+	.fa {
+		padding-left: 10px;
+		padding-right: 20px;
+		font-size: 20px;
+	}
+}
+
+
+/* HOME PAGE */
+.front-banner {
+    background: url(images/home-banner_o.jpg) no-repeat;
+    background-size: cover;
+    height: 650px;
 }
 #headline {
 	font-weight: 400;
@@ -103,7 +147,7 @@ body {
 	color: #777;
 }
 
-/* Promo Row */
+/* Home Page - Promo Row */
 .promo-row {
 	background-color: #ffeb3b;
 	padding: 50px;
@@ -143,7 +187,7 @@ body {
 	}
 }
 
-/* Product Row */
+/* Home Page - Product Row */
 .product-row {
 	padding: 0px;
 }
@@ -216,7 +260,7 @@ body {
 	background-color: #cc0000;
 }
 
- /* Cooking Classes Row */
+ /* Home Page - Cooking Classes Row */
 .cooking-row {
 	padding: 0px;
 }
@@ -260,45 +304,6 @@ body {
 		margin-top: 16px;
     	padding: 154px;
 	}
-}
-
-/* Footer Row */
-footer {
-	margin-top: 25px;
-}
-@media (min-width: 768px) {
-	.social-icons {
-		margin-top: 30px;
-	}
-}
-@media (min-width: 991px) {
-	footer {
-		background-color: #ffeb3b;
-	}
-}
-.fa-ul {
-	display: flex;
-	color: #cc0000;
-	justify-content: space-around;
-	margin-right: 30px;
-}
-@media (min-width: 991px) {
-	.fa-ul {
-		justify-content: center;
-	}
-	.fa {
-		padding-left: 10px;
-		padding-right: 20px;
-		font-size: 20px;
-	}
-}
-.disclaimer-row {
-	margin-top: 30px;
-}
-#disclaimer-text {
-	font-size: 13px;
-	font-weight: 300;
-	text-align: center;
 }
 
 /* ABOUT PAGE */
