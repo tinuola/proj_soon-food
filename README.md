@@ -12,5 +12,5 @@ Design concept focused on the “farm to plate” transformation of organic seas
 * Flexbox
 * Pixelmator
 
-[Original Website](http://www.soo-nfood.com/)
-[Website Demo](https://tinuola.github.io/soon-food/)
+[Original Website](http://www.soo-nfood.com/)<br>
+[Redesigned Website - Demo](https://tinuola.github.io/soon-food/)
