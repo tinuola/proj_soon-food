@@ -9,7 +9,6 @@ Design concept focused on the “farm to plate” transformation of organic seas
 * HTML5
 * CSS3
 * Bootstrap
-* Flexbox
 * Pixelmator
 
 [Original Website](http://www.soo-nfood.com/)<br>
