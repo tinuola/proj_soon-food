@@ -1,108 +1,200 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Soon Food - Home Page</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Catamaran:300,400,600" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+  <head>
+    <title>Soon Food - Home Page</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:300,400,600"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--Logo & Nav Menu-->
+      <header class="row">
+        <div class="hero col-xs-12 col-sm-12 col-md-12">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="index.html"
+                  ><img
+                    src="images/soon_logo_new.png"
+                    class="img-responsive soon-logo"
+                    width="150px"
+                    alt="Soon Food Logo"
+                /></a>
+              </div>
+              <div
+                class="collapse navbar-collapse"
+                id="bs-example-navbar-collapse-1"
+              >
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="menu-text"><a href="index.html">Home</a></li>
+                  <li class="menu-text"><a href="about.html">About</a></li>
+                  <li class="menu-text">
+                    <a href="products.html">Products</a>
+                  </li>
+                  <li class="menu-text"><a href="">Classes</a></li>
+                  <li class="menu-text"><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="header-text">
+            <h1 id="headline">Soon Food</h1>
+            <h3 id="subtitle">Where Nature and Art Meet on the Plate</h3>
+            <p
+              class="site-btns"
+              id="home-hero-btn-clear"
+            >
+              Soon Food Jams
+            </p>
+            <p
+              class="site-btns"
+              id="home-hero-btn-solid"
+            >
+              Soon Food Classes
+            </p>
+          </div>
+        </div>
+      </header>
 
-<div class="container-fluid">
-	<!--Logo & Nav Menu-->
-	<header class="row">
-		<div class="hero col-xs-12 col-sm-12 col-md-12">
-			<nav class="navbar navbar-default">
-  				<div class="container-fluid">
+      <!--Promo Container-->
+      <div class="row">
+        <div class="promo-row col-xs-12 col-sm-12 col-md-12">
+          <p class="promo-headline">Why Soon Food?</p>
+          <h2 class="promo-slug">Fresh, Seasonal and Tasty</h2>
+          <p class="promo-desc">
+            At Soon Food, we believe that food should be fresh and seasonal. We
+            work with only what's in season. We make it colorful, we make it
+            fresh, we make it taste good.
+          </p>
+        </div>
+      </div>
 
-    				<div class="navbar-header">
-     					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-      					</button>
-      					<a href="index.html"><img src="images/soon_logo_new.png" class="img-responsive soon-logo" width="150px" alt="Soon Food Logo"></a>
-    				</div>
- 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="menu-text"><a href="index.html">Home</a></li>
-				            <li class="menu-text"><a href="about.html">About</a></li>
-				            <li class="menu-text"><a href="products.html">Products</a></li>
-				            <li class="menu-text"><a href="">Classes</a></li>
-     						<li class="menu-text"><a href="contact.html">Contact</a></li>
-        				</ul>
-    				</div>
-  				</div>
-			</nav>
-			<div class="header-text">
-				<h1 id="headline">Soon Food</h1>
-				<h3 id="subtitle">Where Nature and Art Meet on the Plate</h3>
-				<p class="site-btns" id="home-hero-btn-clear">Soon Food Jams</p>
-				<p class="site-btns" id="home-hero-btn-solid">Soon Food Classes</p>
-			</div>
-		</div>
-	</header>
+      <!--Product Container-->
+      <div class="row">
+        <div class="product-row">
+          <!--Product container image-->
+          <div class="product-image-panel display-panels">
+            <img
+              src="images/soon-food-candied-fruits.jpg"
+              width="640px"
+              alt="soon food blueberry jam"
+              class="img-responsive candied-fruit"
+            />
+          </div>
+          <!--Product container copy-->
+          <div class="product-copy-panel display-panels">
+            <p class="product-copy">
+              Soon Food Jams are handmade fresh, in small batches, without
+              preservatives, high fructose corn syrup or commercial pectin. All
+              you taste is the fruit and its season.
+            </p>
+            <p id="product-btn">Shop the Jam Collection</p>
+          </div>
+          <div class="cooking-image-panel display-panels">
+            <img
+              src="images/soon-food-sketch-menu.jpg"
+              width="640px"
+              alt="soon food cooking classes"
+              class="img-responsive cooking-sketch"
+            />
+          </div>
+          <div class="cooking-copy-panel display-panels">
+            <p class="cooking-copy">
+              The Soon Food Concept is available as a private cooking experience
+              for your family and friends. We create custom menus that feature
+              locally sourced, organic ingredients. We bring
+              everything--including pots, dishware and silverware--to you! And
+              clean up after!
+            </p>
+            <p id="cooking-btn">Book a Private Cooking Class</p>
+          </div>
+        </div>
+      </div>
 
-	<!--Promo Container-->
-	<div class="row">
-		<div class="promo-row col-xs-12 col-sm-12 col-md-12">
-			<p class="promo-headline">Why Soon Food?</p>
-			<h2 class="promo-slug">Fresh, Seasonal and Tasty</h2>
-			<p class="promo-desc">At Soon Food, we believe that food should be fresh and seasonal. We work with only what's in season. We make it colorful, we make it fresh, we make it taste good.</p>
-		</div>
-	</div>
+      <!--Footer-->
+      <footer class="row">
+        <!--Social Icons-->
+        <div class="social-icons col-xs-12 col-sm-12 col-md-12">
+          <ul class="fa-ul">
+            <li>
+              <i
+                class="fa fa-facebook"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-instagram"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-pinterest"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-twitter"
+                aria-hidden="true"
+              ></i>
+            </li>
+          </ul>
+        </div>
+        <!--Disclaimer-->
+        <div class="disclaimer-row col-xs-12 col-sm-12 col-md-12">
+          <p class="disclaimer-text">This Site is for Display Purposes Only</p>
+          <p class="disclaimer-text">
+            Coded with 😊 by
+            <a
+              href="https://github.com/tinuola/proj_soon-food"
+              target="_blank"
+              >TechTinu</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
 
-	<!--Product Container-->
-	<div class="row">
-		<div class="product-row">
-			<!--Product container image-->
-			<div class="product-image-panel display-panels">
-				<img src="images/soon-food-candied-fruits.jpg" width="640px" alt="soon food blueberry jam" class="img-responsive candied-fruit">
-			</div>
-			<!--Product container copy-->
-			<div class="product-copy-panel display-panels" >
-				<p class="product-copy">Soon Food Jams are handmade fresh, in small batches, without preservatives, high fructose corn syrup or commercial pectin. All you taste is the fruit and its season.</p>
-				<p id="product-btn">Shop the Jam Collection</p>
-			</div>
-			<div class="cooking-image-panel display-panels">
-				<img src="images/soon-food-sketch-menu.jpg" width="640px" alt="soon food cooking classes" class="img-responsive cooking-sketch">
-			</div>
-			<div class="cooking-copy-panel display-panels">
-				<p class="cooking-copy">The Soon Food Concept is available as a private cooking experience for your family and friends. We create custom menus that feature locally sourced, organic ingredients. We bring everything--including pots, dishware and silverware--to you! And clean up after!</p>
-				<p id="cooking-btn">Book a Private Cooking Class</p>
-			</div>
-		</div>
-	</div>
-
-	<!--Footer-->
-	<footer class="row">
-		<!--Social Icons-->
-		<div class="social-icons col-xs-12 col-sm-12 col-md-12">
-			<ul class="fa-ul">
-				<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-				<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-				<li><i class="fa fa-pinterest" aria-hidden="true"></i></li>
-				<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-			</ul>
-		</div>
-		<!--Disclaimer-->
-		<div class="disclaimer-row col-xs-12 col-sm-12 col-md-12">
-			<p id="disclaimer-text">This Site is for Display Purposes Only</p>
-		</div>
-	</footer>
-
-</div>
-
-<!--JQuery CDN and Bootstrap JavaScript CDN-->
-<script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous">
-</script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-</script>
-
-</body>
+    <!--JQuery CDN and Bootstrap JavaScript CDN-->
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    ></script>
+  </body>
 </html>
