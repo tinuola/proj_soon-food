@@ -206,13 +206,16 @@ footer {
 }
 
 /**** Home Page - Product Row ****/
-.product-row {
+.product-display {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   margin-top: 65px;
   margin-bottom: 40px;
+}
+.product-row {
+  display: flex;
 }
 .display-panels {
   width: 500px;
@@ -224,10 +227,10 @@ footer {
   order: 2;
 }
 .cooking-copy-panel {
-  order: 3;
+  order: 1;
 }
 .cooking-image-panel {
-  order: 4;
+  order: 2;
 }
 .product-copy-panel,
 .cooking-copy-panel {
@@ -270,8 +273,11 @@ footer {
 }
 
 @media (max-width: 814px) {
-  .product-row {
+  .product-display {
     margin-top: 0px;
+  }
+  .product-row {
+    flex-direction: column;
   }
   .display-panels {
     width: 100%;
@@ -281,10 +287,10 @@ footer {
     width: 100%;
   }
   .cooking-copy-panel {
-    order: 4;
+    order: 2;
   }
   .cooking-image-panel {
-    order: 3;
+    order: 1;
   }
   .product-copy-panel,
   .cooking-copy-panel {
@@ -364,7 +370,7 @@ footer {
 }
 
 /**** Product Page - Product Display ****/
-.product-pg-product-row {
+.product-pg-product-display {
   margin: 10px 15px;
   display: flex;
   justify-content: center;
@@ -428,7 +434,7 @@ footer {
 }
 
 @media (max-width: 660px) {
-  .product-pg-product-row {
+  .product-pg-product-display {
     display: block;
     margin: -15px;
     padding: 0px;
